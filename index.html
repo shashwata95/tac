@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+	<title>Theoretical Astro Group - S. Walch</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/grayscale.css" rel="stylesheet">
+	<link href="css/colorbox.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- jQuery Version 1.11.0 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="js/grayscale.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			jQuery('a.ajax').colorbox({iframe:true, width:"80%", height:"80%"});
+			jQuery('.intro').fadeTo(1000,1.0, function() {
+	// Animation complete.
+	});
+		});
+
+	</script>
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script>
+</head>
+
+   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> Start
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#highlight">Highlight of the month</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#downloads">Simulations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">ERC grant</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#people">Members</a>
+                    </li>
+
+                    <!--<li>
+                        <a class="page-scroll" href="#links">Links</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Theoretical Astrophysics Group</h1>
+                        <p class="intro-text"><b>Research Group of Prof. Dr. Stefanie Walch</b>
+                          <!--<br>I. Physikalisch Institute
+                          <br>Universit&auml;t zu K&ouml;ln--></p>
+                        <a href="#people" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="highlight" class="highlight-section">
+<!--      <div class="container">
+        <div class="row">
+          <h2>Highlight of the month</h2>
+          <img src="./img/simpics/pjoshi_sims.jpg">
+
+        </div>
+      </div> -->
+  <div class="container">
+  <h2>Highlight of the month</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="hl-image">
+          <img src="./img/simpics/Mom0_MC2.png" alt="Chicago" >
+        </div>
+        <div class="hl-text"><b>January, 2018</b>
+          <br>
+          Synthetic [CII] line emission maps of a simulated molecular cloud along different projections.
+          <br>
+          Color coded is the intensity integrated over a velocity range of +/- 20 km/s.
+          <br>
+          The underlying simulation has a maximum spatial resolution of dx=0.122pc and is part of the zoom-in simulations published by Seifried et al. 2017.
+          <br>
+          Simulations by Annika Franeck.
+        </div>
+        
+
+      </div>
+
+      <div class="item">
+        <div class="hl-image">
+          <img src="./img/simpics/pjoshi_sims.jpg" alt="Los Angeles">          
+        </div>
+        <div class="hl-text">
+        <b>December, 2017</b>
+        <br>
+        Density snapshots of the turbulent box (left) and colliding flow (right) simulations. Simulations by Prabesh Joshi.</div>
+      </div>
+    
+      <div class="item">
+        <div class="hl-image">
+          <img src="./img/simpics/dste_0261.png" alt="New york">
+        </div>
+        <div class="hl-text">
+        <b>November, 2017</b>
+        <br> 
+        A slice through a disc of a spiral galaxy taken from SILCC simulations. The galaxy is gas rich, contains approximately ten times higher surface density of gas than the Galaxy leading to very high star formation rate. Young star clusters are modelled by sink particles, and are represented by white (younger than 8 Myr) and grey (older than 8 Myr) circles. The clusters contain young stars, which drive stellar winds, explode as supernovae, and ionise the interstellar medium. These feedback processes and cluster formation are simulated self-consistently. The panels depict from left to right: density, surface density, temperature and the volume energy of ionising radiation (in logarithm in cgs units). The normal to the galaxy points in direction y. The modelled ISM develops all three phases observed in the real ISM: the hot phase in bubbles around young clusters and in streams out of the galactic disc, the warm phase of 'Swiss cheese' structure, and the cold phase in the form of molecular clouds condensing of the densest gas.</div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    </section>
+
+    <section id="people" class="people-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>People</h2>
+                <table>
+                    <tr>
+                      <td></td>
+                      <td><h5><div>Group Leader</div></h5></td>
+                    </tr>
+                    <tr>
+                       <td><a href="https://hera.ph1.uni-koeln.de/~walch/Steffi_Walchs_homepage/Main.html" target="_blank"><img src="img/Walch.jpg"
+                           height=125px></a></td>
+                           <td><strong>Prof. Dr. Stefanie Walch-Gassner</strong>
+                            <br/>
+                            Main research interest: 3D computer simulations of star formation, stellar feedback, turbulence, physics of the interstellar medium (ISM), gas cycle in galaxies.
+                            
+                            Affiliated to I. Physikalisches Institute, Universit&auml;t zu K&ouml;ln.
+                            <br>
+                           <a href="https://hera.ph1.uni-koeln.de/~walch/Steffi_Walchs_homepage/Main.html" target="_blank">visit site</a></td>
+                           </tr>
+                           <tr>
+                            <td></td>
+                            <td><h5><div class="add-pad">Postdoctoral Researchers</div></h5></td>
+                           </tr>
+                           <tr>
+                               <td><a href="www.mpa-garching.mpg.de" target="_blank"><img src="img/daniel.jpg" height=120px></a></td>
+                               <td><strong>Dr. Daniel Seifried</strong>
+                                <br/>
+                                Main research interest:
+                                Present day star formation (magnetic fields, protostellar disks and outflows, star forming filaments, molecular cloud formation), synthetic observations, interstellar turbulence, primordial star formation, astrochemistry (KROME), high performance computing.
+<!--                                &nbsp; magnetic fields <br>
+                                &nbsp; protostellar disks and outflows< <br>
+                                &nbsp;star forming filaments <br>
+                                &nbsp;molecular cloud formation <br> 
+                                <b> Synthetic observations</b> <br>
+                                <b> Interstellar turbulence</b> <br>
+                                <b> Primordial star formation </b> <br>
+                                <b> Astrochemistry (KROME) </b> <br>
+                                <b> High Performance Computing </b>  -->                              
+                                <br>
+                                <a href="" target="_blank">visit site</a></td>
+                               </tr>
+                           <tr>
+                               <td><a href="www.mpa-garching.mpg.de" target="_blank"><img src="img/juan.png" height=120px></a></td>
+                               <td><strong>Dr. Juan Ibanez-Mejia</strong>
+                                <br/>
+                                I am using 3D MHD numerical simulations to understand how the interplay between several physical and chemical processes (e.g. turbulence, self-gravity, stellar feedback, magnetic fields, radiative heating and cooling) influences the dynamical evolution of the interstellar medium of galaxies, with a particular interest in the dynamical properties and evolution of molecular clouds.
+                                <br>
+                                <a href="" target="_blank">visit site</a></td>
+                               </tr>
+                               <tr>
+                                 <td></td>
+                                  <td><h5><div class="add-pad">PhD Students</div></h5></td>
+                                </tr>
+                                <tr>
+                                  <td><img src="img/annika.jpg" height = 120px></td>
+                                  <td><strong>Annika Franeck</strong>
+                                  <br/>
+                                  Comparison between simulations and observations:<br>
+                                  Post-processing of 3D MHD simulations with radiative transfer codes
+                                  (e.g. RADMC-3D) to obtain synthetic emission maps.<br>
+                                  So far the study is focussed on synthetic [CII] line emission. <br>
+                                  </td>
+                               </tr>
+                               <tr class="blank_row">
+                                 <td colspan="2"></td>
+                               </tr>
+                                <tr>
+                                  <td><img src="img/sebastian.jpg" height = 120px></td>
+                                  <td><strong>Sebastian Haid</strong>
+                                  <br/>
+                                  Modelling of Supernova explosions in structured media<br>
+                                  Feedback processes in molecular clouds<br>
+                                  Radiative Feedback implementation
+                                  </td>
+                               </tr>
+                               <tr class="blank_row">
+                                 <td colspan="2"></td>
+                               </tr>
+                                <tr>
+                                  <td><img src="img/dominik.jpg" height = 120px></td>
+                                  <td><strong>Dominik Derigs</strong>
+                                  <br/>
+                                  Development of high-resolution techniques for 3D numerical simulations
+                                  </td>
+                               </tr>
+                               <tr class="blank_row">
+                                 <td colspan="2"></td>
+                               </tr>
+                                <tr>
+                                  <td><img src="img/prabesh.jpg" height = 120px></td>
+                                  <td><strong>Prabesh Raj Joshi</strong>
+                                  <br/>
+                                  Formation of dense molecular clouds in the model of colliding warm atomic flows.<br>
+                                  Convergence of chemical species with increasing resolution.<br>
+                                  Comparison of different chemical networks.<br>
+                                  HPC with the AMR MHD code FLASH
+                                  </td>
+                               </tr>
+
+
+<!--				<tr>
+					<td><a href="www.uzh.ch" target="_blank"><img src="img/200px-Uni_Zuerich_Logo.svg.png" height=60px></a></td>
+					<td><strong>Team Z&uuml;rich</strong><br/>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="introduction" class="intro-section">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Introduction</h2>
+                <p>Star formation takes place in the densest and coldest gas in a galaxy, in so-called molecular clouds (MCs). MCs do not evolve in isolation but are highly dynamical objects, which are born, fed, heated, and stirred from their turbulent environment into which they eventually dissolve. They form in regions where the hot or warm, ionized and atomic interstellar medium (ISM) condenses into cold
+                ($T < 300K$), molecular gas. Often concentrated to the midplane of galactic disks, this process involves metallicity-dependent, non-equilibrium chemistry and molecule formation, heating and cooling, turbulence, self-gravity, and magnetic fields. Once formed, MCs further collapse to form stars and star clusters.</p>
+
+                <p>Less than 1% of all new-born stars are more massive than 8 solar masses, but these are particularly important for galaxy evolution. The life and death of massive stars differ intriguingly from those of their low-mass counterparts. Such stars affect their environment dramatically through their strong UV radiation, their energetic stellar wind, and their final explosion as a supernova (SN). These ’feedback’ processes generate turbulence in the parental molecular cloud, dissociate, ionize, and eventually destroy them from within, thereby preventing further star formation. Stellar feedback is thus thought to regulate the star formation efficiency in molecular clouds leading to a self-regulation of star formation on galactic scales.</p>
+
+                <p>In the framework of the Gauss project "SILCC" (Simulating the Life
+                    Cycle of Molecular Clouds) run on SuperMUC, the peta-scale
+                    machine at the Leibniz Rechenzentrum Garching, scientists from from Cologne, Garching, Heidelberg, Prague and Zurich model representative regions of disk galaxies using adaptive, three-dimensional simulations with the necessary physical complexity to follow the full life-cycle of molecular clouds. These simulations include self-gravity, magnetic fields, heating and cooling at different gas metallicities, molecule formation and dissociation, and stellar feedback. The ultimate goal of the SILCC project is to provide a self-consistent answer as to how stellar feedback regulates the star formation efficiency of a galaxy, how molecular clouds are formed and destroyed, and how galactic outflows are driven.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section id="downloads" class="downloads-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Available simulations</h2>
+                    <p>The SILCC project is split into several sets of simulations including different physical processes and different numerical realisations. Future simulations will be made public together with the corresponding scientific publication.</p>
+                    <p> In the first set of simulations (see below) we show the impact of different supernova positioning and different (but constant in time) supernova rates on the structural evolution of the ISM in a galactic disc with a gas surface density of 10 Msun/pc&sup2 . For more information on the simulations please check the <a href="http://arxiv.org/abs/1412.2749"> SILCC
+                    Paper</a>.</p>
+                    <h5 style="margin: 0 0 0px;">SILCC data webpage:&nbsp;<a href="https://silcc.mpa-garching.mpg.de/"
+                    target="_new">silcc.mpa-garching.mpg.de</a></h5><br/><br/>
+                    <!--			<p>Gas surface density 10 Msun/pc&sup2;, Interstellar radiation field G_0 = 1.7, No magnetic field</p> -->
+
+<!--                    <tr>
+                    	<td><strong>S10-R15-rand</strong><br/><img src="img/custom-SILCC-SILCC_hdf5_plt_cnt_0401.png" width=200 /></td>
+                    	<td>This run uses randomly placed supernovae at a rate of 15 per Myr.</td>
+                    	<td><a class="ajax btn btn-default btn-lg" href="simulations/S10-R15-rand.html" title="S10-R15-rand">Details of the simulation</a>&nbsp;<a class="btn btn-default btn-lg" href="#" target="_blank" title="S10-R15-rand">Simulation data (external link)</a></td>
+                    </tr> -->
+
+                    <h3>SILCC I. Chemical evolution of the supernova-driven ISM</h3>
+
+                    <table>
+
+                       <tr>
+                       <!-- <td><h5 style="margin: 0  0 0px;">Snapshot at t=50 Myr</h4></td> -->
+                        <td><h5 style="margin: 0  0 0px;">Run name</h5></td>
+                        <td><h5 style="margin: 0  0 0px;">SN rate [1/Myr]</h5></td>
+                        <td><h5 style="margin: 0  0 0px;">Driving scheme</h5></td>
+                    </tr>
+
+                    <tr><td colspan=3><h4 style="margin: 0 0
+                        0px;">No self-gravity</h4></td></tr>
+                        <tr style="background: #F3F781">
+                          <td>S10-KS-rand-nsg</td>
+                          <td>15</td>
+                          <td>random driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-rand-nsg.html">Movie</a></td>
+                      </tr>
+
+                      <tr><td colspan=4><h4 style="margin: 0 0 0px;">Different driving schemes and supernova rates</h4></td></tr>
+
+                      <tr style="background: #CCC">
+                          <td>S10-lowSN-rand</td>
+                          <td>5</td>
+                          <td>random driving</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-lowSN-rand.html" title="S10-lowSN-rand">Movie</a>--></td>
+                      </tr>
+
+                      <tr style="background: #CCC">
+                          <td>S10-KS-rand</td>
+                          <td>15</td>
+                          <td>random driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-rand.html">Movie</a></td>
+                      </tr>
+
+                      <tr style="background: #CCC">
+                          <td>S10-highSN-rand</td>
+                          <td>45</td>
+                          <td>random driving</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-highSN-rand.html" title="S10-highSN-rand">Movie</a>--></td>
+                      </tr>
+
+
+                      <tr style="background: #D0F5A9">
+                          <td>S10-lowSN-peak</td>
+                          <td>5</td>
+                          <td>peak driving</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-lowSN-peak.html" title="S10-lowSN-peak">Movie</a>--></td>
+                      </tr>
+
+                      <tr style="background: #D0F5A9">
+                          <td>S10-KS-peak</td>
+                          <td>15</td>
+                          <td>peak driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-peak.html">Movie</a></td>
+                      </tr>
+
+                      <tr style="background: #D0F5A9">
+                          <td>S10-highSN-peak</td>
+                          <td>45</td>
+                          <td>peak driving</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-highSN-peak.html" title="S10-highSN-peak">Movie</a>--></td>
+                      </tr>
+
+                      <tr style="background: #BC8EA3">
+                          <td>S10-lowSN-mix</td>
+                          <td>5</td>
+                          <td>mixed driving, ratio 1:1</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-lowSN-mix.html" title="S10-lowSN-mix">Movie</a>--></td>
+                      </tr>
+
+                      <tr style="background: #BC8EA3">
+                          <td>S10-KS-mix</td>
+                          <td>15</td>
+                          <td>mixed driving, ratio 1:1</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-mix.html">Movie</a></td>
+                      </tr>
+
+                      <tr style="background: #BC8EA3">
+                          <td>S10-highSN-mix</td>
+                          <td>45</td>
+                          <td>mixed driving, ratio 1:1</td>
+                          <td><!--<a class="ajax btn btn-default btn-lg" href="simulations/S10-highSN-mix.html" title="S10-highSN-mix">Movie</a>--></td>
+                      </tr>
+
+                      <tr style="background: #33CCFF">
+                          <td>S10-KS-clus2</td>
+                          <td>15</td>
+                          <td>clustered driving; Type II SNe</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-clus2.html">Movie</a></td>
+                      </tr>
+
+                      <tr style="background: #A9A9F5">
+                          <td>S10-KS-clus</td>
+                          <td>15</td>
+                          <td>clustered driving; 20% of all SNe is Type Ia</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-clus.html">Movie</a></td>
+                      </tr>
+
+
+
+                      <tr><td colspan=3><h4 style="margin: 0 0 0px;">MHD
+                          runs with B0 = 3 microGauss</h4></td></tr>
+
+                          <tr style="background: #F5A9BC">
+                              <td>S10-KS-clus-mag3</td>
+                              <td>15</td>
+                              <td>clustered driving; 20% of all SNe is Type Ia</td>
+                              <td><a class="ajax btn btn-default btn-lg" href="video/silcc1/S10-KS-clus-mag3.html">Movie</a></td>
+                          </tr>
+
+
+                      </table>
+
+                      <ul>
+                          <li>SN = supernova</li>
+                          <li>random driving = randomly placed supernovae</li>
+                          <li>peak driving = Supernovae placed at global density maxima</li>
+                          <li>mixed driving =  mixed 50:50 (random vs. peak)</li>
+                          <li>clustered driving = 50% of all supernovae are in randomly placed clusters, which contain between 5 and 40 supernovae. 30% are single random supernovae, and 20% are Type Ia's, which have a larger scale height of 320 pc.</li>
+                          <li>KS = Kennnicutt-Schmidt. The KS relation was converted to the expected SN rate for a disk with gas surface density 10 Msun/pc&sup2 . </li>
+                      </ul>
+
+                      <p>&nbsp;</p>
+
+
+                  <h3>SILCC IV. Impact of dissociating and ionising radiation on the interstellar medium and Halpha emisssion as a tracer of the star formation rate</h3>
+                    <table>
+
+                       <tr>
+                       <!-- <td><h5 style="margin: 0  0 0px;">Snapshot at t=50 Myr</h4></td> -->
+                        <td width="20%"><h5 style="margin: 0  0 0px;">Type</h5></td>
+                        <td></td>
+                       </tr>
+                       <tr>
+                          <td>Supernovae</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc4/fsn_halpha.html">Movie</a></td>
+                       </tr>
+                       <tr>
+                          <td>Supernovae, Stellar winds</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc4/fwsn_halpha.html">Movie</a></td>
+                       </tr>
+                       <tr>
+                          <td>Supernovae, Stellar winds, Radiation</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/silcc4/frwsn_halpha.html">Movie</a></td>
+                       </tr>
+                    </table>
+
+                      <p>&nbsp;</p>
+
+                      <h3>The turbulent life of dust grains in the
+                      supernova-driven, multi-phase interstellar
+                      medium</h3>
+                    <table>
+
+                       <tr>
+                       <!-- <td><h5 style="margin: 0  0 0px;">Snapshot at t=50 Myr</h4></td> -->
+                        <td width="20%"><h5 style="margin: 0  0 0px;">Driving scheme</h5></td>
+                        <td></td>
+                       </tr>
+                       <tr>
+                          <td>random driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/dust/random.html">Movie</a></td>
+                       </tr>
+                       <tr>
+                          <td>mixed driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/dust/mixed.html">Movie</a></td>
+                       </tr>
+                       <tr>
+                          <td>peak driving</td>
+                          <td><a class="ajax btn btn-default btn-lg" href="video/dust/peak.html">Movie</a></td>
+                       </tr>
+                    </table>
+
+                      <p>&nbsp;</p>
+
+
+<!--                      <h3>SILCC III. Star formation self-regulation, disc equilibrium and outflows launching by stellar winds and SNe</h3>
+
+                      <table>
+                        <tr>
+                           <td><h5 style="margin: 0  0 0px;">Run name</h4></td>
+                           <td><h5 style="margin: 0  0 0px;">SF efficiency</h4></td>
+                           <td><h5 style="margin: 0  0 0px;">Stellar winds</h4></td>
+                           <td><h5 style="margin: 0  0 0px;">Supernovae</h4></td>
+                           <td><h5 style="margin: 0  0 0px;">Magnetic Fields</h4></td>
+                           <td colspan=2><h5 style="margin: 0  0 0px;">Movies</h4></td>
+                       </tr>
+                       <tr>
+                           <td colspan=5></td>
+                           <td><h5 style="margin: 0  0 0px;">without<br/>sink particles</h4></td>
+                           <td><h5 style="margin: 0  0 0px;">with<br/>sink particles</h4></td>
+                       </tr>
+
+				<tr style="background: #F3F781">
+					<td>e10-SN-NoMag</td>
+					<td>10%</td>
+					<td>No</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-SN-NoMag.html" title="e10-SN-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-SN-NoMag-with-sinks.html" title="e10-SN-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #F3F781">
+					<td>e10-WSN-NoMag</td>
+					<td>10%</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-WSN-NoMag.html" title="e10-WSN-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-WSN-NoMag-with-sinks.html" title="e10-WSN-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #F3F781">
+					<td>e10-WSN-Mag3</td>
+					<td>10%</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-WSN-Mag3.html" title="e10-WSN-Mag3">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e10-WSN-Mag3-with-sinks.html" title="e10-WSN-Mag3-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #D0F5A9">
+					<td>e100-NoF-NoMag</td>
+					<td>100%</td>
+					<td>No</td>
+					<td>No</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-NoF-NoMag.html" title="e100-NoF-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-NoF-NoMag-with-sinks.html" title="e100-NoF-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #D0F5A9">
+					<td>e100-SN-NoMag</td>
+					<td>100%</td>
+					<td>No</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-SN-NoMag.html" title="e100-SN-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-SN-NoMag-with-sinks.html" title="e100-SN-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #D0F5A9">
+					<td>e100-W-NoMag</td>
+					<td>100%</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-W-NoMag.html" title="e100-W-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-W-NoMag-with-sinks.html" title="e100-W-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #D0F5A9">
+					<td>e100-WSN-NoMag</td>
+					<td>100%</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-WSN-NoMag.html" title="e10-WSN-NoMag">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-WSN-NoMag-with-sinks.html" title="e10-WSN-NoMag-with-sinks">Movie</a></td>
+				</tr>
+				<tr style="background: #D0F5A9">
+					<td>e100-WSN-Mag3</td>
+					<td>100%</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td>Yes</td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-WSN-Mag3.html" title="e10-WSN-Mag3">Movie</a></td>
+					<td><a class="ajax btn btn-default btn-lg" href="video/silcc3/e100-WSN-Mag3-with-sinks.html" title="e10-WSN-Mag3-with-sinks">Movie</a></td>
+				</tr>
+			</table> -->
+<!--		<form id="form1"
+		  action="http://girichidis.de/00-SILCC/index.php"
+		  method="post" target="_blank"><input type="hidden"
+		  name="DataRelease" value="DR01"><a class="btn
+		  btn-default btn-lg" target="_blank"
+		  title="S10-R15-rand"
+		  onclick="form1.submit();">Simulation data (external -->
+		  <!--		link)</a><!-- <input type="submit"
+		  name="DRformSubmit" value="Submit" > -->
+		  <!--		</form><p></p>-->
+        </div>
+    </div>
+</section>
+
+
+<section id="publications" class="publications-section">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Publications</h2>
+            <h3>SILCC publications</h3>
+ <!--           <table>
+                <tr>
+                   <td><a href="http://mnras.oxfordjournals.org/content/454/1/246.abstract">
+                    S. Walch, P. Girichidis, T. Naab, A. Gatto, S. C. O. Glover, R. W&uuml;nsch, R. S. Klessen, P. C. Clark, T. Peters, D. Derigs, C. Baczynski<br/>
+                    The SILCC (SImulating the LifeCycle of molecular Clouds) project:
+                    I. Chemical evolution of the supernova-driven ISM<br/>
+                    MNRAS 454 (1): 246-276 </a></td>
+                </tr>
+                <tr>
+                   <td>
+                    P. Girichidis, S. Walch, T. Naab, A. Gatto, S. C. O. Glover, R. W&uuml;nsch, R. S. Klessen, P. C. Clark, T. Peters, D. Derigs, C. Baczynski<br/>
+                    The SILCC (SImulating the LifeCycle of molecular Clouds)
+                    project: II. Dynamical evolution of the supernova-driven ISM and the launching of outflows<br/>
+                    </td>
+                </tr>
+                <tr>
+                   <td><a href="http://stacks.iop.org/2041-8205/813/L27">T. Peters, P. Girichidis, A. Gatto,
+                   T. Naab, S. Walch, R. W&uuml;nsch, S. C. O. Glover, P. C. Clark,
+                   R. S. Klessen, C. Baczynski<br/>
+                    Impact of supernova and cosmic-ray driving on the
+                    surface brightness of the galactic halo in soft
+                    X-rays<br/>
+                    ApJ, 813, L27 </a></td>
+                </tr>
+            </table> -->
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The SILCC (SImulating the LifeCycle of molecular Clouds) project:<br/>I. Chemical evolution of the supernova-driven ISM</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">S. Walch, P. Girichidis, T. Naab, A. Gatto, S. C. O. Glover, R. W&uuml;nsch, R. S. Klessen, P. C. Clark, T. Peters, D. Derigs, C. Baczynski</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#SILCC_I">Show details</button>
+				<div id="SILCC_I" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>The SILCC (SImulating the Life-Cycle of molecular Clouds) project aims to self-consistently understand the small-scale structure of the interstellar medium (ISM) and its link to galaxy evolution. We simulate the evolution of the multiphase ISM in a $(500{\rm~pc})^2 \times \pm 5 {\rm~kpc}$ region of a galactic disc, with a gas surface density of $\Sigma _{_{\rm GAS}} = 10 \;{\rm M}_{\odot }\,{\rm pc}^{-2}$. The $\mathtt{FLASH}$ 4 simulations include an external potential, self-gravity, magnetic fields, heating and radiative cooling, time-dependent chemistry of ${\rm H}_2$ and ${\rm CO}$ considering (self-) shielding, and supernova (SN) feedback but omit shear due to galactic rotation. We explore SN explosions at different rates in high-density regions (<i>peak</i>), in random locations with a Gaussian distribution in the vertical direction (<i>random</i>), in a combination of both (<i>mixed</i>), or clustered in space and time (<i>clus/clus2</i>). Only models with self-gravity and a significant fraction of SNe that explode in low-density gas are in agreement with observations. Without self-gravity and in models with peak driving the formation of ${\rm H}_2$ is strongly suppressed. For decreasing SN rates, the ${\rm H}_2$ mass fraction increases significantly from $&lt; 10$ per cent for high SN rates, i.e. 0.5 dex above Kennicutt–Schmidt, to 70–85 per cent for low SN rates, i.e. 0.5 dex below KS. For an intermediate SN rate, <i>clustered</i> driving results in slightly more ${\rm H}_2$ than random driving due to the more coherent compression of the gas in larger bubbles. Magnetic fields have little impact on the final disc structure but affect the dense gas ($n \gtrsim 10{\rm~cm}^{-3}$) and delay ${\rm H}_2$ formation. Most of the volume is filled with hot gas ($\sim 80$ per cent within $\pm 150{\rm~pc}$). For all but peak driving a vertically expanding warm component of atomic hydrogen indicates a fountain flow. We highlight that individual chemical species populate different ISM phases and cannot be accurately modelled with temperature-/density-based phase cut-offs.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="http://mnras.oxfordjournals.org/content/454/1/246">Monthly Notices of the Royal Astronomical Society (November 21, 2015) 454 (1): 246-276</a>. A copy of the preprint is also available on the astro-ph server (<a href="http://arxiv.org/abs/1412.2749">arXiv:1412.2749</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The SILCC (SImulating the LifeCycle of molecular Clouds) project:<br/>II. Dynamical evolution of the supernova-driven ISM and the launching of outflows</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">P. Girichidis, S. Walch, T. Naab, A. Gatto, S. C. O. Glover, R. W&uuml;nsch, R. S. Klessen, P. C. Clark, T. Peters, D. Derigs, C. Baczynski</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#SILCC_II">Show details</button>
+				<div id="SILCC_II" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>The SILCC project (SImulating the Life-Cycle of molecular Clouds) aims at a more self-consistent understanding of the interstellar medium (ISM) on small scales and its link to galaxy evolution. We present three-dimensional (magneto)hydrodynamic simulations of the ISM in a vertically stratified box including self-gravity, an external potential due to the stellar component of the galactic disc, and stellar feedback in the form of an interstellar radiation field and supernovae (SNe). The cooling of the gas is based on a chemical network that follows the abundances of ${\rm H}^{+}$, ${\rm H}$, ${\rm H}_2$, ${\rm C}^{+}$, and ${\rm CO}$ and takes shielding into account consistently. We vary the SN feedback by comparing different SN rates, clustering and different positioning, in particular SNe in density peaks and at random positions, which has a major impact on the dynamics. Only for random SN positions the energy is injected in sufficiently low-density environments to reduce energy losses and enhance the effective kinetic coupling of the SNe with the gas. This leads to more realistic velocity dispersions ($\sigma_{HI} $$~\sim~$$ 0.8\sigma_{(300 - 8000{\rm~K})} $$~\sim~$$ 10-20{\rm~km/s}$, $\sigma_{H\alpha} $$~\sim~$$ 0.6\sigma_{(8000 - 3 \cdot 10^5 {\rm~K})} $$~\sim~$$ 20-30{\rm~km/s}$), and strong outflows with mass loading factors of up to 10 even for solar neighbourhood conditions. Clustered SNe abet the onset of outflows compared to individual SNe but do not influence the net outflow rate. The outflows do not contain any molecular gas and are mainly composed of atomic hydrogen. The bulk of the outflowing mass is dense ($\rho $$~\sim~$$ 10^{-25} - 10^{-24} {\rm~g/cc}$) and slow ($v $$~\sim~$$ 20-40 {\rm~km/s}$) but there is a high-velocity tail of up to $v $$~\sim~$$ 500{\rm~km/s}$ with $\rho $$~\sim~$$ 10^{-28} - 10^{-27} {\rm~g/cc}$.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="http://mnras.oxfordjournals.org/content/456/4/3432">Monthly Notices of the Royal Astronomical Society (March 11, 2016) 456 (4): 3432-3455</a>. A copy of the preprint is also available on the astro-ph server (<a href="http://arxiv.org/abs/1508.06646">arXiv:1508.06646</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The SILCC project:<br/>III. Regulation of star formation and outflows by stellar winds and supernovae</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">A. Gatto, S. Walch, T. Naab, P. Girichidis, R. Wünsch, S. C. O. Glover, R. S. Klessen, P. C. Clark, T. Peters, D. Derigs, C. Baczynski, J. Puls</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#SILCC_III">Show details</button>
+				<div id="SILCC_III" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>We study the impact of stellar winds and supernovae on the multi-phase interstellar medium using three-dimensional hydrodynamical simulations carried out with FLASH. The selected galactic disc region has a size of (500 pc)$^2$ x $\pm$ 5 kpc and a gas surface density of 10 M$_{\odot}$/pc$^2$. The simulations include an external stellar potential and gas self-gravity, radiative cooling and diffuse heating, sink particles representing star clusters, stellar winds from these clusters which combine the winds from indi- vidual massive stars by following their evolution tracks, and subsequent supernova explosions. Dust and gas (self-)shielding is followed to compute the chemical state of the gas with a chemical network. We find that stellar winds can regulate star (cluster) formation. Since the winds suppress the accretion of fresh gas soon after the cluster has formed, they lead to clusters which have lower average masses (10$^2$ - 10$^{4.3}$ M$_{\odot}$) and form on shorter timescales (10$^{-3}$ - 10 Myr). In particular we find an anti-correlation of cluster mass and accretion time scale. Without winds the star clusters easily grow to larger masses for ~5 Myr until the first supernova explodes. Overall the most massive stars provide the most wind energy input, while objects beginning their evolution as B-type stars contribute most of the supernova energy input. A significant outflow from the disk (mass loading $\gtrsim$ 1 at 1 kpc) can be launched by thermal gas pressure if more than 50% of the volume near the disc mid-plane can be heated to T > 3x10$^5$ K. Stellar winds alone cannot create a hot volume-filling phase. The models which are in best agreement with observed star formation rates drive either no outflows or weak outflows.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw3209">Monthly Notices of the Royal Astronomical Society (December 12, 2016), Volume 466, Issue 2, p. 1903-1924</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1606.05346">arXiv:1606.05346</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The SILCC project:<br/>IV. Impact of dissociating and ionizing radiation on the interstellar medium and Hα emission as a tracer of the star formation rate</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">T. Peters, T. Naab, S. Walch, S. C. O. Glover, P. Girichidis, E. Pellegrini, R. S. Klessen, R. Wünsch, A. Gatto, C. Baczynski</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#SILCC_IV">Show details</button>
+				<div id="SILCC_IV" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>We present three-dimensional radiation-hydrodynamical simulations of the impact of stellar winds, photoelectric heating, photodissociating and photoionising radiation, and supernovae on the chemical composition and star formation in a stratified disc model. This is followed with a sink-based model for star clusters with populations of individual massive stars. Stellar winds and ionising radiation regulate the star formation rate at a factor of ~10 below the simulation with only supernova feedback due to their immediate impact on the ambient interstellar medium after star formation. Ionising radiation (with winds and supernovae) significantly reduces the ambient densities for most supernova explosions to rho < 10^-25 g cm^-3, compared to 10^-23 g cm^-3 for the model with only winds and supernovae. Radiation from massive stars reduces the amount of molecular hydrogen and increases the neutral hydrogen mass and volume filling fraction. Only this model results in a molecular gas depletion time scale of 2 Gyr and shows the best agreement with observations. In the radiative models, the Halpha emission is dominated by radiative recombination as opposed to collisional excitation (the dominant emission in non-radiative models), which only contributes ~1-10 % to the total Halpha emission. Individual massive stars ($M >= 30 M_\odot$) with short lifetimes are responsible for significant fluctuations in the Halpha luminosities. The corresponding inferred star formation rates can underestimate the true instantaneous star formation rate by factors of ~10.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw3216">Monthly Notices of the Royal Astronomical Society (December 10, 2016), Volume 466, Issue 3, p. 3293-3308</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1610.06569">arXiv:1610.06569</a>).</p>
+				</div>
+			</div>
+
+            <div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+        <h4 style="color: #4C7FFC; margin-bottom: 0.2em;">SILCC-Zoom:<br> the dynamic and chemical evolution of molecular clouds</h4>
+        <p style="margin-bottom: 0.2em; font-weight: bold;">D. Seifried, S. Walch, P. Girichidis, T. Naab, R. W&uuml;nsch, R. S. Klessen, S. C. O. Glover, T. Peters, P. Clark</p>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#SILCC_Zoom">Show details</button>
+        <div id="SILCC_Zoom" class="collapse">
+        <p style="margin-bottom: 1em;"><br/>We present 3D <q>zoom-in</q> simulations of the formation of two molecular clouds out of the galactic interstellar medium. We model the clouds – identified from the SILCC simulations – with a resolution of up to 0.06 pc using adaptive mesh refinement in combination with a chemical network to follow heating, cooling and the formation of $\rm~H_2$ and $\rm~CO$ including (self-) shielding. The two clouds are assembled within a few million years with mass growth rates of up to $\sim 10^{−2}$ ${\rm M}_{\odot} \rm~yr^{−1}$ and final masses of $\sim 50000 \rm~M_{\odot}$. A spatial resolution of $\leqslant 0.1 \rm~pc$ is required for convergence with respect to the mass, velocity dispersion and chemical abundances of the clouds, although these properties also depend on the cloud definition such as based on density thresholds, $\rm~H_2$ or $\rm~CO$ mass fraction. To avoid grid artefacts, the progressive increase of resolution has to occur within the free-fall time of the densest structures ($1–1.5 \rm~Myr$) and $\geqslant 200$ time-steps should be spent on each refinement level before the resolution is progressively increased further. This avoids the formation of spurious, large-scale, rotating clumps from unresolved turbulent flows. While $\rm~CO$ is a good tracer for the evolution of dense gas with number densities $\rm{n} \geqslant 300 \rm~cm^{−3}$, $\rm~H_2$ is also found for $\rm{n} \leqslant 30 \rm~cm^{−3}$ due to turbulent mixing and becomes dominant at column densities around $30–50 \rm{M}_{\odot} \rm{pc}^{−2}$. The $\rm~CO$-to-$\rm~H_2$ ratio steadily increases within the first $2 \rm~Myr$, whereas $\rm{X_{CO}} \simeq 1–4 \times 10^{20} \rm~cm^{−2} (K\ km\ s^{−1})^{−1}$ is approximately constant since the CO(1−0) line quickly becomes optically thick.</p>        
+        <p style="margin-bottom: 0em;">This paper will be published in the <a href="https://academic.oup.com/mnras/article/472/4/4797/4111168">Monthly Notices of the Royal Astronomical Society (December 21, 2017) 472 (4): 4797-4818</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1704.06487">arXiv:1704.06487</a>).</p>
+        </div>
+      </div>
+
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">Launching Cosmic-Ray-driven Outflows from the Magnetized Interstellar Medium</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">P. Girichidis, T. Naab, S. Walch, M. Hanasz, M.-M. Mac Low, J. P. Ostriker, A. Gatto, T. Peters, R. Wünsch, S. C. O. Glover, R. S. Klessen, P. C. Clark, C. Baczynski</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#launching">Show details</button>
+				<div id="launching" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>We present a hydrodynamical simulation of the turbulent, magnetized, supernova (SN)-driven interstellar medium (ISM) in a stratified box that dynamically couples the injection and evolution of cosmic rays (CRs) and a self-consistent evolution of the chemical composition. CRs are treated as a relativistic fluid in the advection-diffusion approximation. The thermodynamic evolution of the gas is computed using a chemical network that follows the abundances of H${\rm H}^{+}$, ${\rm H}$, ${\rm H}_2$, ${\rm CO}$, and ${\rm C}^{+}$, and free electrons and includes (self-)shielding of the gas and dust. We find that CRs perceptibly thicken the disk with the heights of 90% (70%) enclosed mass reaching ~1.5 kpc (~0.2 kpc). The simulations indicate that CRs alone can launch and sustain strong outflows of atomic and ionized gas with mass loading factors of order unity, even in solar neighborhood conditions and with a CR energy injection per SN of 10^50 erg, 10% of the fiducial thermal energy of an SN. The CR-driven outflows have moderate launching velocities close to the midplane (~100 km/s) and are denser ($\rho$~1e-24 - 1e-26 g/cm^3), smoother, and colder than the (thermal) SN-driven winds. The simulations support the importance of CRs for setting the vertical structure of the disk as well as the driving of winds.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="http://iopscience.iop.org/article/10.3847/2041-8205/816/2/L19/meta">The Astrophysical Journal Letters, Volume 816, Issue 2</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1509.07247">arXiv:1509.07247</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The turbulent life of dust grains in the supernova-driven, multiphase interstellar medium</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">T. Peters, S. Zhukovska, T. Naab, P. Girichidis, S. Walch, S. C. O. Glover, R. S. Klessen, P. C. Clark, D. Seifried</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#turbulent_life">Show details</button>
+				<div id="turbulent_life" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>Dust grains are an important component of the interstellar medium (ISM) of galaxies. We present the first direct measurement of the residence times of interstellar dust in the different ISM phases, and of the transition rates between these phases, in realistic hydrodynamical simulations of the multi-phase ISM. Our simulations include a time-dependent chemical network that follows the abundances of H${}^+$, H, H${}_2$, C${}^+$ and CO and take into account self-shielding by gas and dust using a tree-based radiation transfer method. Supernova explosions are injected either at random locations, at density peaks, or as a mixture of the two. For each simulation, we investigate how matter circulates between the ISM phases and find more sizeable transitions than considered in simple mass exchange schemes in the literature. The derived residence times in the ISM phases are characterised by broad distributions, in particular for the molecular, warm and hot medium. The most realistic simulations with random and mixed driving have median residence times in the molecular, cold, warm and hot phase around 17, 7, 44 and 1 Myr, respectively. The transition rates measured in the random driving run are in good agreement with observations of Ti gas-phase depletion in the warm and cold phases in a simple depletion model, although the depletion in the molecular phase is under-predicted. ISM phase definitions based on chemical abundance rather than temperature cuts are physically more meaningful, but lead to significantly different transition rates and residence times because there is no direct correspondence between the two definitions.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx341">Monthly Notices of the Royal Astronomical Society, Volume 467, Issue 4, p.4322-4342</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1610.06579">arXiv:1610.06579</a>).</p>
+				</div>
+			</div>
+
+
+            <br/><h3>Related project publications</h3>
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">Impact of supernova and cosmic-ray driving on the surface brightness of the galactic halo in soft X-rays</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">T. Peters, P. Girichidis, A. Gatto, T. Naab, S. Walch, R. W&uuml;nsch, S. C. O. Glover, P. C. Clark, R. S. Klessen, C. Baczynski</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#impact_supernova">Show details</button>
+				<div id="impact_supernova" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>The halo of the Milky Way contains a hot plasma with a surface brightness in soft X-rays of the order $10^{-12}{\rm~erg} {\rm~cm}^{-2} {\rm~s}^{-1} {\rm~deg}^{-2}$. The origin of this gas is unclear, but so far numerical models of galactic star formation have failed to reproduce such a large surface brightness by several orders of magnitude. In this paper, we analyze simulations of the turbulent, magnetized, multi-phase interstellar medium including thermal feedback by supernova explosions as well as cosmic-ray feedback. We include a time-dependent chemical network, self-shielding by gas and dust, and self-gravity. Pure thermal feedback alone is sufficient to produce the observed surface brightness, although it is very sensitive to the supernova rate. Cosmic rays suppress this sensitivity and reduce the surface brightness because they drive cooler outflows. Self-gravity has by far the largest effect because it accumulates the diffuse gas in the disk in dense clumps and filaments, so that supernovae exploding in voids can eject a large amount of hot gas into the halo. This can boost the surface brightness by several orders of magnitude. Although our simulations do not reach a steady state, all simulations produce surface brightness values of the same order of magnitude as the observations, with the exact value depending sensitively on the simulation parameters. We conclude that star formation feedback alone is sufficient to explain the origin of the hot halo gas, but measurements of the surface brightness alone do not provide useful diagnostics for the study of galactic star formation.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="http://iopscience.iop.org/article/10.1088/2041-8205/813/2/L27/meta">The Astrophysical Journal Letters, Volume 813, Issue 2, article id. L27, 7 pp. (2015)</a>. A copy of the preprint is also available on the astro-ph server (<a href="http://arxiv.org/abs/1510.06563">arXiv:1510.06563</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">Soft X-ray absorption excess in gamma-ray burst afterglow spectra: Absorption by turbulent ISM</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">M. Tanga, P. Schady, A. Gatto, J. Greiner, M. G. H. Krause, R. Diehl, S. Savaglio, S. Walch</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#soft_xray">Show details</button>
+				<div id="soft_xray" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>Two-thirds of long duration gamma-ray bursts (GRBs) show soft X-ray absorption in excess of the Milky Way. The column densities of metals inferred from UV and optical spectra differ from those derived from soft X-ray spectra, at times by an order of magnitude, with the latter being higher. The origin of the soft X-ray absorption excess observed in GRB X-ray afterglow spectra remains a heavily debated issue, which has resulted in numerous investigations on the effect of hot material both internal and external to the GRB host galaxy on our X-ray afterglow observations. Nevertheless, all models proposed so far have either only been able to account for a subset of our observations (i.e. at $z > 2$), or they have required fairly extreme conditions to be present within the absorbing material. In this paper, we investigate the absorption of the GRB afterglow by a collisionally ionised and turbulent interstellar medium (ISM). We find that a dense (3 per cubic centimeters) collisionally ionised ISM could produce UV/optical and soft X-ray absorbing column densities that differ by a factor of 10, however the UV/optical and soft X-ray absorbing column densities for such sightlines and are 2-3 orders of magnitude lower in comparison to the GRB afterglow spectra. For those GRBs with a larger soft X-ray excess of up to an order of magnitude, the contribution in absorption from a turbulent ISM as considered here would ease the required conditions of additional absorbing components, such as the GRB circumburst medium and intergalactic medium.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://www.aanda.org/articles/aa/abs/2016/11/aa27961-15/aa27961-15.html">Astronomy &amp; Astrophysics, Volume 595, id.A24, 10</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1603.05123">arXiv:1603.05123</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">The impact of magnetic fields on the chemical evolution of the supernova-driven ISM</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">A. Pardi, P. Girichidis, T. Naab, S. Walch, T. Peters, F. Heitsch, S. C. O. Glover, R. S. Klessen, R. Wünsch, A. Gatto</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#impact_magnetic">Show details</button>
+				<div id="impact_magnetic" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>We present three-dimensional magneto-hydrodynamical simulations of the self-gravitating interstellar medium (ISM) in a periodic (256 pc)$^3$ box with a mean number density of 0.5 cm$^{-3}$. At a fixed supernova rate we investigate the multi-phase ISM structure, H$_{2}$ molecule formation and density-magnetic field scaling for varying initial magnetic field strengths (0, $6\times 10^{-3}$, 0.3, 3 $\mu$G). All magnetic runs saturate at mass weighted field strengths of $\sim$ 1 $-$ 3 $\mu$G but the ISM structure is notably different. With increasing initial field strengths (from $6\times 10^{-3}$ to 3 $\mu$G) the simulations develop an ISM with a more homogeneous density and temperature structure, with increasing mass (from 5% to 85%) and volume filling fractions (from 4% to 85%) of warm (300 K $<$ T $<$ 8000 K) gas, with decreasing volume filling fractions (VFF) from $\sim$ 35% to $\sim$ 12% of hot gas (T $> 10^5$ K) and with a decreasing H$_{2}$ mass fraction (from 70% to $<$ 1%). Meanwhile the mass fraction of gas in which the magnetic pressure dominates over the thermal pressure increases by a factor of 10, from 0.07 for an initial field of $6\times 10^{-3}$ $\mu$G to 0.7 for a 3 $\mu$G initial field. In all but the simulations with the highest initial field strength self-gravity promotes the formation of dense gas and H$_{2}$, but does not change any other trends. We conclude that magnetic fields have a significant impact on the multi-phase, chemical and thermal structure of the ISM and discuss potential implications and limitations of the model.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw3071">Monthly Notices of the Royal Astronomical Society, Volume 465, Issue 4, p.4611-4633</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1611.00585">arXiv:1611.00585</a>).</p>
+				</div>
+			</div>
+
+
+			<div style=" padding: 1em; border-width: 2px; border-style: solid; margin-bottom: 1em;">
+				<h4 style="color: #4C7FFC; margin-bottom: 0.2em;">Modelling the supernova-driven ISM in different environments</h4>
+				<p style="margin-bottom: 0.2em; font-weight: bold;">A. Gatto, S. Walch, M.-M. Mac Low, T. Naab, P. Girichidis, S. C. O. Glover, R. Wünsch, R. S. Klessen, P. C. Clark, C. Baczynski, T. Peters, J. P. Ostriker, J. C. Ibáñez-Mejía, S. Haid</p>
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#modelling_ISM">Show details</button>
+				<div id="modelling_ISM" class="collapse">
+				<p style="margin-bottom: 1em;"><br/>We present three-dimensional magneto-hydrodynamical simulations of the self-gravitating interstellar medium (ISM) in a periodic (256 pc)$^3$ box with a mean number density of 0.5 cm$^{-3}$. At a fixed supernova rate we investigate the multi-phase ISM structure, H$_{2}$ molecule formation and density-magnetic field scaling for varying initial magnetic field strengths (0, $6\times 10^{-3}$, 0.3, 3 $\mu$G). All magnetic runs saturate at mass weighted field strengths of $\sim$ 1 $-$ 3 $\mu$G but the ISM structure is notably different. With increasing initial field strengths (from $6\times 10^{-3}$ to 3 $\mu$G) the simulations develop an ISM with a more homogeneous density and temperature structure, with increasing mass (from 5% to 85%) and volume filling fractions (from 4% to 85%) of warm (300 K $<$ T $<$ 8000 K) gas, with decreasing volume filling fractions (VFF) from $\sim$ 35% to $\sim$ 12% of hot gas (T $> 10^5$ K) and with a decreasing H$_{2}$ mass fraction (from 70% to $<$ 1%). Meanwhile the mass fraction of gas in which the magnetic pressure dominates over the thermal pressure increases by a factor of 10, from 0.07 for an initial field of $6\times 10^{-3}$ $\mu$G to 0.7 for a 3 $\mu$G initial field. In all but the simulations with the highest initial field strength self-gravity promotes the formation of dense gas and H$_{2}$, but does not change any other trends. We conclude that magnetic fields have a significant impact on the multi-phase, chemical and thermal structure of the ISM and discuss potential implications and limitations of the model.</p>
+				<p style="margin-bottom: 0em;">This paper has been published in the <a href="https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stv324">Monthly Notices of the Royal Astronomical Society, Volume 449, Issue 1, p.1057-1075</a>. A copy of the preprint is also available on the astro-ph server (<a href="https://arxiv.org/abs/1411.0009">arXiv:1411.0009</a>).</p>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+
+<section id="acknowledgments" class="acknowledgments-section">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Acknowledgments</h2>
+            This work is supported by
+            <table>
+                <tr>
+                    <td><a href="http://www.ism-spp.de/" target="_blank"><img src="img/logo_ism_spp.gif" height=50px></a> </td>
+                    <td>The DFG Priority Programme 1573 <a href="http://www.ism-spp.de/">'Physics of the ISM'</a></td>
+                </tr>
+                <tr>
+                    <td> <a href="http://www.lrz.de/" target="_blank"><img src="img/Leibniz-Rechenzentrum_logo.svg.png" height=50px</a></td>
+                    <td> Leibniz-Rechenzentrum Garching</td>
+                </tr>
+                <tr>
+                <td> <a href="http://www.gauss-centre.eu/" target="_blank"><img src="img/logo_GCS.png" height=50px</a></td>
+                    <td> Gauss Center for Supercomputing:</br> <a href="http://www.gauss-centre.eu/gauss-centre/EN/Projects/Astrophysics/2014/walch_SILCC.html?nn=1236240">Link to a short project description on the GCS site</a></td>
+                </tr>
+                <tr>
+                  <td> <a href="http://www.mpcdf.mpg.de/" target="_blank"><img src="img/mpcdf-logo.png" height=30px</a></td>
+                  <td> Max Planck Computing and Data Facility (MPCDF)</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+</section>
+
+
+<!--
+
+    <section id="links" class="links-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Related links</h2>
+                    <table>
+                    <tr>
+                    	<td></td>
+                    	<td></td>
+                    </tr>
+                    </table>
+                </div>
+        </div>
+    </section>
+
+-->
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center last">
+        <h4>Copyright &copy; 2016  -  The SILCC group</h4>
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(["trackPageView"]);
+          _paq.push(["enableLinkTracking"]);
+
+          (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://statistik.dl6er.de/";
+            _paq.push(["setTrackerUrl", u+"piwik.php"]);
+            _paq.push(["setSiteId", "3"]);
+            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+            g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Piwik Code -->
+           <!-- <p>&nbsp;</p>
+		<p>
+			<img src="img/241px-Logo_Heidelberg.jpg" height=100px> Universit&auml;t Heidelberg &nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="img/240px-SiegelUniKoeln.svg.png" width=100px> Universit&auml;t zu Köln &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/header_astrophysik-de.gif" height=80px>
+		</p>
+		<p>&nbsp;</p>
+		<p>
+			<img src="img/200px-Uni_Zuerich_Logo.svg.png" height=50px> &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/asu.cas.cz.jpg" height=50px> &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/Leibniz-Rechenzentrum_logo.svg.png" height=50px> Leibnitz-Rechenzentrum
+      </p> -->
+  </div>
+</footer>
+
+</body>
+
+</html>

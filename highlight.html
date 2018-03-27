@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+	<title>Theoretical Astro Group - S. Walch</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/grayscale.css" rel="stylesheet">
+	<link href="css/colorbox.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- jQuery Version 1.11.0 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="js/grayscale.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			jQuery('a.ajax').colorbox({iframe:true, width:"80%", height:"80%"});
+			jQuery('.intro').fadeTo(1000,1.0, function() {
+	// Animation complete.
+	});
+		});
+
+	</script>
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script>
+</head>
+
+   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> Start
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#highlight">Highlight of the month</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#downloads">Simulations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">ERC grant</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#people">Members</a>
+                    </li>
+
+                    <!--<li>
+                        <a class="page-scroll" href="#links">Links</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<!--
+
+    <section id="links" class="links-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Related links</h2>
+                    <table>
+                    <tr>
+                    	<td></td>
+                    	<td></td>
+                    </tr>
+                    </table>
+                </div>
+        </div>
+    </section>
+
+-->
+
+<!-- Footer -->
+    <section id="highlight" class="highlight-section">
+<!--      <div class="container">
+        <div class="row">
+          <h2>Highlight of the month</h2>
+          <img src="./img/simpics/pjoshi_sims.jpg">
+
+        </div>
+      </div> -->
+  <div class="container">
+  <h2>Highlight of the month</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="hl-image">
+          <img src="./img/simpics/Mom0_MC2.png" alt="Chicago" >
+        </div>
+        <div class="hl-text"><b>January, 2018</b>
+          <br>
+          Synthetic [CII] line emission maps of a simulated molecular cloud along different projections.
+          <br>
+          Color coded is the intensity integrated over a velocity range of +/- 20 km/s.
+          <br>
+          The underlying simulation has a maximum spatial resolution of dx=0.122pc and is part of the zoom-in simulations published by Seifried et al. 2017.
+          <br>
+          Simulations by Annika Franeck.
+        </div>
+        
+
+      </div>
+
+      <div class="item">
+        <div class="hl-image">
+          <img src="./img/simpics/pjoshi_sims.jpg" alt="Los Angeles">          
+        </div>
+        <div class="hl-text">
+        <b>December, 2017</b>
+        <br>
+        Density snapshots of the turbulent box (left) and colliding flow (right) simulations. Simulations by Prabesh Joshi.</div>
+      </div>
+    
+      <div class="item">
+        <div class="hl-image">
+          <img src="./img/simpics/dste_0261.png" alt="New york">
+        </div>
+        <div class="hl-text">
+        <b>November, 2017</b>
+        <br> 
+        A slice through a disc of a spiral galaxy taken from SILCC simulations. The galaxy is gas rich, contains approximately ten times higher surface density of gas than the Galaxy leading to very high star formation rate. Young star clusters are modelled by sink particles, and are represented by white (younger than 8 Myr) and grey (older than 8 Myr) circles. The clusters contain young stars, which drive stellar winds, explode as supernovae, and ionise the interstellar medium. These feedback processes and cluster formation are simulated self-consistently. The panels depict from left to right: density, surface density, temperature and the volume energy of ionising radiation (in logarithm in cgs units). The normal to the galaxy points in direction y. The modelled ISM develops all three phases observed in the real ISM: the hot phase in bubbles around young clusters and in streams out of the galactic disc, the warm phase of 'Swiss cheese' structure, and the cold phase in the form of molecular clouds condensing of the densest gas.</div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    </section>
+
+<section id="acknowledgments" class="acknowledgments-section">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Acknowledgments</h2>
+            This work is supported by
+            <table>
+                <tr>
+                    <td><a href="http://www.ism-spp.de/" target="_blank"><img src="img/logo_ism_spp.gif" height=100px></a> </td>
+                    <td>The DFG Priority Programme 1573 <a href="http://www.ism-spp.de/">'Physics of the ISM'</a></td>
+                </tr>
+                <tr>
+                    <td> <a href="http://www.lrz.de/" target="_blank"><img src="img/Leibniz-Rechenzentrum_logo.svg.png" height=100px</a></td>
+                    <td> Leibniz-Rechenzentrum Garching</td>
+                </tr>
+                <tr>
+                <td> <a href="http://www.gauss-centre.eu/" target="_blank"><img src="img/logo_GCS.png" height=100px</a></td>
+                    <td> Gauss Center for Supercomputing:</br> <a href="http://www.gauss-centre.eu/gauss-centre/EN/Projects/Astrophysics/2014/walch_SILCC.html?nn=1236240">Link to a short project description on the GCS site</a></td>
+                </tr>
+                <tr>
+                  <td> <a href="http://www.mpcdf.mpg.de/" target="_blank"><img src="img/mpcdf-logo.png" height=60px</a></td>
+                  <td> Max Planck Computing and Data Facility (MPCDF)</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+</section>
+
+
+<footer>
+    <div class="container text-center last">
+        <h4>Copyright &copy; 2016  -  The SILCC group</h4>
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(["trackPageView"]);
+          _paq.push(["enableLinkTracking"]);
+
+          (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://statistik.dl6er.de/";
+            _paq.push(["setTrackerUrl", u+"piwik.php"]);
+            _paq.push(["setSiteId", "3"]);
+            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+            g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Piwik Code -->
+           <!-- <p>&nbsp;</p>
+		<p>
+			<img src="img/241px-Logo_Heidelberg.jpg" height=100px> Universit&auml;t Heidelberg &nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="img/240px-SiegelUniKoeln.svg.png" width=100px> Universit&auml;t zu Köln &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/header_astrophysik-de.gif" height=80px>
+		</p>
+		<p>&nbsp;</p>
+		<p>
+			<img src="img/200px-Uni_Zuerich_Logo.svg.png" height=50px> &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/asu.cas.cz.jpg" height=50px> &nbsp;&nbsp;&nbsp;&nbsp;
+ 			<img src="img/Leibniz-Rechenzentrum_logo.svg.png" height=50px> Leibnitz-Rechenzentrum
+      </p> -->
+  </div>
+</footer>
+
+
+</body>
+
+</html>

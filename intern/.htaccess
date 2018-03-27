@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "SILCC :: Password Protected Area"
+AuthUserFile /home/silcc/.htpasswd
+Require valid-user
+
