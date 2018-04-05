@@ -242,7 +242,7 @@ a:focus {
     max-width: 100%; 
     width: auto;
     height: auto;
-    float: left; 
+    /*float: left; */
     position: relative;  
     display: flex;
     align-items: center;
@@ -438,4 +438,26 @@ body {
 {
     height: 30px; /* overwrites any other rules */
     /*background-color: #FFFFFF;*/
+}
+
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+figure {
+  text-align: center;
+  padding: .2em;
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+    text-align: left;
+    caption-side: bottom;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }

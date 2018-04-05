@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+	<title>Theoretical Astro Group - S. Walch</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/grayscale.css" rel="stylesheet">
+	<link href="css/colorbox.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<!-- -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- jQuery Version 1.11.0 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="js/grayscale.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			jQuery('a.ajax').colorbox({iframe:true, width:"80%", height:"80%"});
+			jQuery('.intro').fadeTo(1000,1.0, function() {
+	// Animation complete.
+	});
+		});
+
+	</script>
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script>
+</head>
+
+   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> Start
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="./index.html#highlight">Highlight of the month</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html#downloads">Simulations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html#introduction">Teaching</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html#people">Members</a>
+                    </li>
+
+                    <!--<li>
+                        <a class="page-scroll" href="#links">Links</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <section id="april" class="highlight-section">
+        <div class="row add-pad">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4 >Resolution requirements for molecular cloud formation in hydrodynamic simulations including chemistry</h4>
+                <figure>
+                <img src="./img/april_pravesh.png" alt="Los Angeles" width="800px">
+                <figcaption>Figure: A snapshot of the colliding flow (left) and turbulent box (right) setup with the color-bar showing the number density distribution (in cm$^{-3}$) at $t = 20$ Myr. The opacity bar next to the color bar shows that the opacity of the low density gas is reduced to reveal the dense objects formed inside. The zoomed-in section for the colliding flow setup shows a forming filamentary structure.</figcaption>                    
+                </figure>
+                <p>Molecular clouds form out of the interstellar medium (ISM) and they are turbulent, highly inhomogeneous structures far from hydrostatic and chemical equilibrium. 
+Formation of molecular clouds is often simulated in two kinds of numerical models: colliding flows and turbulent box. 
+Based on 3D hydrodynamic simulations performed in FLASH code, 
+where the relevant chemical reactions are coupled with dust shielding and H$_2$ and CO self-shielding calculated by an octal tree code, 
+we investigate the requirements for spatial resolution for the models to reach the convergence in formation of simple, yet important, H$_2$ and CO molecules.</p>
+                <p>
+                    The colliding flow simulations model the turbulent molecular cloud formation via the large scale collision of the warm neutral medium. In such controlled simulations, where turbulence is injected on large scales by incoming supersonic flows, we find that the H$_2$ formation is converged for a spatial resolution of $\Delta x \sim 0.1$~pc, and the CO formation requires $3-4$ times higher resolution for the convergence.
+                </p>
+<!--                 <p>
+                    <figure class="l left">
+                    <img src="./img/sne_fixed.png" width="400px" style="float:left;">
+                    </figure>
+                </p>
+ -->                <p>
+The turbulent box simulations mimic the nature of turbulence by injecting energy on large scales (tens to hundreds of parsec), from which the turbulence cascades down to smaller scales. We find that such artificially driven turbulent environments do not show any sign of convergence in terms of H$_2$ and CO formation up to a spatial resolution of $\Delta x \sim 0.06$~pc. In such simulations, the dynamics of the gas still substantially changes as resolution increases. Since the dynamical history is known to greatly affect the chemical history of the gas, the chemical convergence is not achieved.
+
+
+                </p>
+
+            </div>
+        </div>
+    </section>
