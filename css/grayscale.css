@@ -5,7 +5,7 @@
  */
 
 .highlight-section  {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 100px;
     text-align: left;
     background: #EFEFEF;
@@ -14,7 +14,7 @@
 
 .people-section  {
 /*    height: 100%;  */
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 100px;
     text-align: left;
 	background: #FFFFFF;
@@ -23,14 +23,14 @@
 
 .intro-section  {
 /*    height: 100%;  */
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 80px;
     text-align: left;
 }
 
 .downloads-section {
 /*    height: 100%;  */
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 70px;
     text-align: left;
     background: #FFF;
@@ -39,7 +39,7 @@
 
 .publications-section {
 /*    height: 100%;*/
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 50px;
     text-align: left;
     background: #EFEFEF;
@@ -207,7 +207,7 @@ a:focus {
     text-align: center;
     text-shadow: 0 0 25px black;
     color: #fff;
-    background: url('../img/simpics/attempt3.png') no-repeat bottom center scroll;
+    background: url('../img/simpics/background_dark.png') no-repeat bottom center scroll;
     background-color: #000;
     opacity: 0.0;
     -webkit-background-size: cover;
