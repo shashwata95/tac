@@ -173,6 +173,7 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+    font-weight: 500;
 }
 
 .navbar-custom .nav li.active {
