@@ -126,6 +126,10 @@ td {
     padding-top: 10px;
 }
 
+.indent {
+    text-indent: 15%;
+}
+
 a {
     color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
