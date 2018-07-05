@@ -111,6 +111,21 @@ td {
     padding-top: 40px;
 }
 
+.anti-pad {
+    padding-top: -15px;
+}
+.add-strong {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.font-16 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
 a {
     color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
